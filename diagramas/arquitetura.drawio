@@ -1,0 +1,71 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0" version="24.7.16">
+  <diagram name="Page-1" id="BmGrMvR9_WWUbvK7_IXM">
+    <mxGraphModel dx="2085" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GpqHg4355qgMbkHLOKn2-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" parent="1" source="GpqHg4355qgMbkHLOKn2-3" target="GpqHg4355qgMbkHLOKn2-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m5GjVgFZCYYC2MVuhqlX-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;dashed=1;" edge="1" parent="1" source="GpqHg4355qgMbkHLOKn2-3" target="m5GjVgFZCYYC2MVuhqlX-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GpqHg4355qgMbkHLOKn2-3" value="&lt;div&gt;MLCompanion&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Recebe comandos dos usuários&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Envia mensagens proativamente&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="240" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GpqHg4355qgMbkHLOKn2-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GpqHg4355qgMbkHLOKn2-5" target="GpqHg4355qgMbkHLOKn2-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="600" />
+              <mxPoint x="40" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GpqHg4355qgMbkHLOKn2-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GpqHg4355qgMbkHLOKn2-5" target="GpqHg4355qgMbkHLOKn2-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GpqHg4355qgMbkHLOKn2-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="GpqHg4355qgMbkHLOKn2-5" target="GpqHg4355qgMbkHLOKn2-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GpqHg4355qgMbkHLOKn2-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="1" source="GpqHg4355qgMbkHLOKn2-5" target="GpqHg4355qgMbkHLOKn2-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="600" />
+              <mxPoint x="760" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GpqHg4355qgMbkHLOKn2-5" value="&lt;div&gt;GeneralManager&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Agrega e coordena a invocação de métodos entre os outros managers&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="440" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GpqHg4355qgMbkHLOKn2-6" value="&lt;div&gt;MoodleManager&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Contém estruturas de dados de alunos e atividades&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Checa a entrega de atividades&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="640" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="m5GjVgFZCYYC2MVuhqlX-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;dashed=1;" edge="1" parent="1" source="GpqHg4355qgMbkHLOKn2-7" target="m5GjVgFZCYYC2MVuhqlX-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GpqHg4355qgMbkHLOKn2-7" value="&lt;div&gt;RequestManager&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Faz requests ao sistema de web services do Moodle e extrai os dados relevantes&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-40" y="640" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GpqHg4355qgMbkHLOKn2-8" value="&lt;div&gt;GamificationManager&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Entrega pontos de experiência aos alunos e sobe seu nível&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Gerencia o leaderboard&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="640" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GpqHg4355qgMbkHLOKn2-9" value="&lt;div&gt;ResponseManager&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Formata mensagens para serem enviadas aos usuários&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="680" y="640" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="m5GjVgFZCYYC2MVuhqlX-1" value="&lt;h2&gt;Discord&lt;br&gt;&lt;/h2&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="240" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="m5GjVgFZCYYC2MVuhqlX-3" value="discord.py" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="520" y="268" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m5GjVgFZCYYC2MVuhqlX-4" value="&lt;h2&gt;Moodle&lt;/h2&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="870" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="m5GjVgFZCYYC2MVuhqlX-6" value="requests" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="798" width="70" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

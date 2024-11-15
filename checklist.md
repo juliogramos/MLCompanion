@@ -96,13 +96,15 @@
 ## 15/11/2024
 - [x] Arrumar checklist
 - [x] Copiar do repo de testes privado
+- [x] Criar gitignore para não incluir tokens e backups
 - [x] Criar novo repo público com nome MLCompanion
-- [ ] Fazer upload para o novo repo
-- [ ] Colocar o link no relatório
+- [x] Fazer upload para o novo repo
+- [x] Colocar o link no relatório
+- [x] Criar requirements
+- [x] Criar readme
 
 ## Futuro
 - [ ] Mensagem de iniciar
 - [ ] Mensagem de iniciar com backup
 - [ ] Mensagem de acabou o curso
-- [ ] Criar requirements
 - [ ] Regularizar os prints no console

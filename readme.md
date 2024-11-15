@@ -1,0 +1,28 @@
+# Trabalho de Conclusão de Curso: MLCompanion
+## Instalação
+- Importar requirements
+- Obter token de web services Moodle com as funções:
+  - core_course_get_courses
+  - core_enrol_get_enrolled_users
+  - mod_h5pactivity_get_attempts
+  - mod_lesson_get_attempts_overview
+  - core_calendar_get_calendar_events
+  - mod_h5pactivity_get_h5pactivities_by_courses
+  - mod_lesson_get_lessons_by_courses
+  - mod_assign_get_assignments
+  - mod_assign_get_submissions
+  - mod_assign_get_grades
+- Criar bot no Discord com permissões para ler e enviar mensagens em canais públicos
+- Criar arquivo .env com os campos:
+  - DISCORD_TOKEN=(Token do Discord)
+  - MOODLE_TOKEN=(Token do Moodle)
+  - DISCORD_CHANNEL=(ID do canal do servidor em que o Bot será incluído onde mensagem de ativação será enviada)
+  - BASE_URL=(URL dos web services do Moodle, ex: .../moodle/webservice/rest/server.php)
+  - COURSE_NAME=(Nome do curso que o chatbot vai observar)
+  - TIMEZONE=(Fuso horário formatado para o tzinfo, ex: America/Sao_Paulo)
+  - RECOMMEND_HOUR=(Hora da explicação da atividade diária)
+  - RECOMMEND_MINUTE=(Minuto da explicação da atividade diária)
+  - RECOMMEND_SECOND=(Segundo da explicação da atividade diária)
+  - ENTREGA_HOUR=(Hora da verificação de entregas diária)
+  - ENTREGA_MINUTE=(Minuto da verificação de entregas diária)
+  - ENTREGA_SECOND=(Segundo da verificação de entregas diária)

@@ -3,3 +3,4 @@
 .idea
 /jsons/backup_alunos.json
 /jsons/backup_atividades.json
+*/__pycache__
